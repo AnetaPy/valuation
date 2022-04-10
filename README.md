@@ -2,8 +2,6 @@
 
 Valuation project allows you to save name, description, category and price new device in your office. Additionally, it will add up the investment costs and the number of items.
 
-[Check my demo here.](https://anetapy.github.io/valuation/)
-
 ## Technologies
 
 Project is created with:
