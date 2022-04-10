@@ -1,4 +1,3 @@
-import "./../style/App.css";
 import React, { useContext } from "react";
 import { AppContext } from "./../context/Context";
 import AddProduct from "./AddProduct";

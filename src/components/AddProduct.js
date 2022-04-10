@@ -1,14 +1,13 @@
 import React, { useContext } from "react";
-import "./../style/AddProduct.css";
 import { AppContext } from "./../context/Context";
 import { v4 as uuidv4 } from "uuid";
+import "./../style/AddProduct.css";
 
 const AddProduct = () => {
   const context = useContext(AppContext);
   let productId = uuidv4();
 
   // Events
-
   const handleEvent = (e) => {
     const value = e.target.value;
     context.setStore({
@@ -17,14 +16,11 @@ const AddProduct = () => {
       [e.target.description]: value,
       [e.target.price]: value,
     });
-    console.log(e.target);
   };
 
   // Add product to state
-
   const addProduct = () => {
     const { name, description, category, price } = context.store;
-
     if (
       name.length < 2 ||
       description.length < 2 ||
@@ -56,7 +52,6 @@ const AddProduct = () => {
     <div className="addProduct">
       <h1>Dodaj produkt</h1>
       <form action="">
-        {/* Nazwa */}
         <label>Nazwa</label>
         <input
           type="text"
@@ -65,7 +60,6 @@ const AddProduct = () => {
           onChange={handleEvent}
         />
         <br />
-        {/* Opis */}
         <label>Opis</label>
         <input
           type="text"
@@ -73,7 +67,6 @@ const AddProduct = () => {
           value={context.store.description}
           onChange={handleEvent}
         />
-        {/* Kategoria */}
         <div className="selectContainer">
           <label>Kategoria</label>
           <select
@@ -92,7 +85,6 @@ const AddProduct = () => {
             <option value="inne">inne</option>
           </select>
         </div>
-        {/* Cena */}
         <label>Cena</label>
         <input
           type="number"

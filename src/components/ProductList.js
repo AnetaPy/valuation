@@ -7,7 +7,6 @@ const ProductList = (props) => {
   const context = useContext(AppContext);
 
   // Delete function
-
   const deleteProduct = (id) => {
     let products = [...context.state.products];
     products = products.filter((product) => product.id !== id);
@@ -17,14 +16,8 @@ const ProductList = (props) => {
   };
 
   // Display products
-
   const products = context.state.products.map((product) => (
-    <Product
-      key={product.id}
-      product={product}
-      delete={deleteProduct}
-      // handle={props.handle}
-    />
+    <Product key={product.id} product={product} delete={deleteProduct} />
   ));
 
   // Summary
@@ -68,7 +61,6 @@ const ProductList = (props) => {
               <h2>Kategoria</h2>
               <h2>Cena</h2>
             </div>
-
             <div className="products">{products}</div>
           </div>
           <div className="summary">
@@ -114,38 +106,3 @@ const ProductList = (props) => {
 };
 
 export default ProductList;
-
-//Products List
-
-// const names = props.products.map((product) => {
-//   return <p key={product.id}>{product.name}</p>;
-// });
-// const descriptions = props.products.map((product) => {
-//   return <p key={product.id}>{product.description}</p>;
-// });
-// const categories = props.products.map((product) => {
-//   return <p key={product.id}>{product.category}</p>;
-// });
-// const prices = props.products.map((product) => {
-//   return <p key={product.id}>{product.price}</p>;
-// });
-// const btn = props.products.map((product) => {
-//   return (
-//     <button key={product.id} onClick={() => deleteProduct(product.id)}>
-//       Delete
-//     </button>
-//   );
-// });
-
-//  <div className="name">
-//         <h2>Nazwa</h2>
-//       </div>
-//       <div className="description">
-//         <h2>Opis</h2>
-//       </div>
-//       <div className="category">
-//         <h2>Kategoria</h2>
-//       </div>
-//       <div className="price">
-//         <h2>Cena</h2>
-//       </div>

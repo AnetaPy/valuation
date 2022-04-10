@@ -2,13 +2,11 @@
   margin: 0 auto;
   width: 70vw;
 }
-
 .productList .content {
   margin-top: 50px;
 }
 
 /* Headings */
-
 .productList .content .headings {
   margin: 30px 0 5px;
   padding: 20px 9.5vw 20px 7vw;
@@ -18,7 +16,6 @@
   width: 70vw;
   background-color: rgb(204, 224, 218);
 }
-
 .productList .content .headings h2 {
   font-size: 27px;
   font-weight: normal;
@@ -26,13 +23,11 @@
 }
 
 /* Product */
-
 .productList .content .products {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-
 .productList .content .products .product {
   margin: 5px 0;
   padding: 20px;
@@ -41,7 +36,6 @@
   justify-content: space-around;
   background-color: rgb(227, 243, 238);
 }
-
 .productList .content .products .product p {
   padding-top: 10px;
   text-align: center;
@@ -49,22 +43,18 @@
   word-wrap: break-word;
   background-color: rgb(227, 243, 238);
 }
-
 .productList .content .products .product p.name {
   width: 15vw;
 }
 .productList .content .products .product p.description {
   width: 20vw;
 }
-
 .productList .content .products .product p.category {
   width: 20vw;
 }
-
 .productList .content .products .product p.price {
   width: 8vw;
 }
-
 .productList .content .products .product button {
   display: block;
   padding: 12px 20px;
@@ -78,11 +68,9 @@
 }
 
 /* Summary */
-
 .productList .summary {
   width: 70vw;
 }
-
 .productList .summary h2 {
   padding: 20px;
   margin: 20px 0 5px;
@@ -91,7 +79,6 @@
   text-align: center;
   background-color: rgb(204, 224, 218);
 }
-
 .productList .summary .contentSummary {
   padding: 20px 2vw 20px 0;
   margin: 10px 0 25px;
@@ -100,39 +87,33 @@
   justify-content: space-around;
   background-color: rgb(227, 243, 238);
 }
-
 .productList .summary .contentSummary p {
   font-size: 22px;
   text-align: center;
   background-color: rgb(227, 243, 238);
 }
-
 .productList .summary .contentSummaryCategory {
   margin: 0 auto 100px;
   width: 70vw;
 }
-
 .productList .summary .contentSummaryCategory .summaryCategoryHeadings {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-color: rgb(204, 224, 218);
 }
-
 .productList .summary .contentSummaryCategory .summaryCategoryHeadings h3 {
   padding: 20px;
   background-color: rgb(204, 224, 218);
   font-size: 24px;
   font-weight: normal;
 }
-
 .productList .summary .contentSummaryCategory .summaryCategoryItems {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-color: rgb(227, 243, 238);
 }
-
 .productList
   .summary
   .contentSummaryCategory
@@ -143,7 +124,6 @@
   text-align: center;
   background-color: rgb(227, 243, 238);
 }
-
 .productList .summary .contentSummaryCategory .summaryCategoryItems p {
   height: 60px;
   padding: 15px;
@@ -155,7 +135,6 @@
   .productList .content .headings h2 {
     font-size: 22px;
   }
-
   .productList .content .products .product p {
     font-size: 19px;
   }
@@ -164,15 +143,12 @@
     height: 40px;
     font-size: 18px;
   }
-
   .productList .summary h2 {
     font-size: 22px;
   }
-
   .productList .summary .contentSummary p {
     font-size: 19px;
   }
-
   .productList .summary .contentSummaryCategory .summaryCategoryHeadings h3 {
     font-size: 21px;
   }
@@ -229,7 +205,6 @@
     margin: 2px 0;
     padding: 10px 5px;
   }
-
   .productList .content .products .product p {
     padding-top: 5px;
     font-size: 16px;
@@ -286,36 +261,35 @@
     width: 90vw;
   }
   .productList .content .headings h2 {
-    font-size: 17px;
+    font-size: 15px;
   }
   .productList .content .products .product p {
     padding-top: 5px;
-    font-size: 14px;
+    font-size: 13px;
   }
   .productList .content .products .product button {
     display: block;
     padding: 4px 10px;
-    font-size: 13px;
+    font-size: 12px;
   }
   .productList .summary {
     width: 90vw;
   }
   .productList .summary h2 {
-    font-size: 17px;
+    font-size: 15px;
   }
   .productList .summary .contentSummary {
     margin: 5px 0 8px;
     padding: 10px 10vw 10px 0;
   }
   .productList .summary .contentSummary p {
-    font-size: 14px;
+    font-size: 13px;
   }
   .productList .summary .contentSummaryCategory {
     width: 90vw;
   }
   .productList .summary .contentSummaryCategory .summaryCategoryHeadings h3 {
-    /* padding: 20px; */
-    font-size: 16px;
+    font-size: 15px;
   }
   .productList .summary .contentSummaryCategory .summaryCategoryItems {
     display: flex;
@@ -323,7 +297,6 @@
     justify-content: space-around;
     background-color: rgb(227, 243, 238);
   }
-
   .productList
     .summary
     .contentSummaryCategory
@@ -333,13 +306,12 @@
     width: auto;
     height: 40px;
     padding: 10px 50px 5px 40px;
-    font-size: 14px;
+    font-size: 13px;
   }
-
   .productList .summary .contentSummaryCategory .summaryCategoryItems p {
     height: 40px;
     padding: 10px 20px 5px;
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
@@ -353,7 +325,6 @@
     width: 60px;
     padding: 10px 40px 5px 25px;
   }
-
   .productList .summary .contentSummaryCategory .summaryCategoryItems p {
     padding: 10px 10px 5px;
   }
