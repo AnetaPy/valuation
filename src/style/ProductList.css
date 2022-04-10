@@ -93,7 +93,7 @@
   background-color: rgb(227, 243, 238);
 }
 .productList .summary .contentSummaryCategory {
-  margin: 0 auto 100px;
+  margin: 0 auto 25px;
   width: 70vw;
 }
 .productList .summary .contentSummaryCategory .summaryCategoryHeadings {
